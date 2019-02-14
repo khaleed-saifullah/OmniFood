@@ -7,6 +7,7 @@
 	
 	}
 	.row{padding: 0 2%;}
+
 } 
 @media only screen and (max-width: 1023px){
 	html{font-size: 18px}
@@ -33,6 +34,9 @@
 		}
 	.plan-price{font-size: 250% }
 	.contact-form{width:80%;}
+	.social-links{
+		float: none;
+	}
 
 } 
 @media only screen and (max-width: 767px){
@@ -61,6 +65,9 @@
 	cite{
 		text-align: right;
 		margin-top: 10px;
+	}
+	.box{
+		text-align: center;
 	}
 	.box-plan{
 		margin-bottom: 20px;
@@ -93,7 +100,7 @@
 		text-decoration: none;
 		border-radius: 200px;
 		transition: background-color 0.2s,border 0.2s,color 0.2s;
-}
+	}
 
 	h3{margin-bottom: 5px;}
 	h1{font-size: 150%}
@@ -129,9 +136,8 @@
 	footer{
 		padding: 50px 30px;
 	}
-	.social-links{
-		float: none;
-	}
+
+
 	footer .col{
 		margin-bottom: 10px;
 	}
